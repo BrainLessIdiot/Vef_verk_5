@@ -1,4 +1,5 @@
 from bottle import *
+import os
 
 @route('/<filename:re:.*\.css>')
 def stylesheets(filename):
