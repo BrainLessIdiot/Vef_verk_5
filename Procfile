@@ -1,1 +1,1 @@
-web: python poo.py
+web: python Poo.py
