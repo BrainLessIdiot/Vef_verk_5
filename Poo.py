@@ -35,4 +35,4 @@ def data():
     return template('order',t = " , ".join(toppings),n=name,h=address,e=email,s=phone,st=size,sub=summa,total=sum_vsk)
 
 
-run()
+run(host='0.0.0.0', port=os.environ.get('PORT'))
